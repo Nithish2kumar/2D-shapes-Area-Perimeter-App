@@ -8,32 +8,27 @@
    ```
 2. Install the required dependencies:
    ```bash
-   npm install
+   pip3 install kivymd==0.104.2
    ```
-
-## Setup Requirements
-- Node.js version >= 14.0.0
-- npm version >= 6.0.0
 
 ## Usage Guide
 1. Run the application:
    ```bash
-   npm start
+   python3 main.py
    ```
-2. Open your web browser and navigate to `http://localhost:3000`
 
 ## Screenshots References
-- ![Screenshot 1](path_to_screenshot_1)
-- ![Screenshot 2](path_to_screenshot_2)
+-<img width="8<<img width="567" height="812" alt="Home screen" src="https://github.com/user-attachments/assets/e92c0d2b-598d-4dd5-9f6d-89218f231721" />
+-<img width="567" height="812" alt="Shapes selection screen" src="https://github.com/user-attachments/assets/dee662ea-b762-4586-b611-64fae3d20ed4" />
+-<img width="567" height="812" alt="Calculation Screen" src="https://github.com/user-attachments/assets/7c05b1d7-d3e9-41cb-847f-221e309af2fe" />
+
+  
 
 ## Project Structure
 ```
 2D-shapes-Area-Perimeter-App/
 ├── src/
-│   ├── components/
-│   ├── styles/
-│   └── App.js
-├── package.json
+│   ├── main.py/
 └── README.md
 ```
 
