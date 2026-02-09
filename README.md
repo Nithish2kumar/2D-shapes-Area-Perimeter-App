@@ -18,9 +18,10 @@
    ```
 
 ## Screenshots References
--<img width="8<<img width="567" height="812" alt="Home screen" src="https://github.com/user-attachments/assets/e92c0d2b-598d-4dd5-9f6d-89218f231721" />
--<img width="567" height="812" alt="Shapes selection screen" src="https://github.com/user-attachments/assets/dee662ea-b762-4586-b611-64fae3d20ed4" />
--<img width="567" height="812" alt="Calculation Screen" src="https://github.com/user-attachments/assets/7c05b1d7-d3e9-41cb-847f-221e309af2fe" />
+   <img width="545" height="742" alt="Home screen" src="https://github.com/user-attachments/assets/5f6de97d-2ed5-4a92-94e1-519d073d3164" />
+   <img width="545" height="742" alt="Shapes Selection screen" src="https://github.com/user-attachments/assets/47f51aac-be8f-4540-842b-49925e141464" />
+   <img width="545" height="742" alt="Calculation screen" src="https://github.com/user-attachments/assets/7288ebe7-bfdc-47f3-80ac-40b7cb3793ab" />
+
 
   
 
