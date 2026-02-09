@@ -1,0 +1,1 @@
+kivymd==0.104.2\n\n# Additional dependencies for KivyMD mobile application\nglances==0.5.0\nrequests==2.25.1\n
