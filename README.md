@@ -1,69 +1,34 @@
-# 2D Shapes Area and Perimeter App 🎨📐
+# 2D Shapes Area & Perimeter App
 
-## Features 🚀
-- Calculate area and perimeter for various 2D shapes: Circle, Triangle, Square, Rectangle, etc.
-- User-friendly interface for easy navigation.
-- Responsive design to support all devices.
+Welcome to the 2D Shapes Area & Perimeter App! 🎉 This application allows users to calculate the area and perimeter of various 2D shapes easily and efficiently.
 
-## Requirements 📋
-- Python 3.x
-- Flask for web application
-- HTML/CSS/JavaScript for frontend
+## Supported Shapes:
+- Circle 🔵
+- Rectangle ⏹️
+- Triangle 🔺
+- Square ⬜
+- Parallelogram 🔷
+- Trapezoid 🔶
+- Ellipse ⚪
 
-## Installation ⚙️
-1. Clone the repository:  
-   `git clone https://github.com/Nithish2kumar/2D-shapes-Area-Perimeter-App.git`
-2. Navigate to the project directory:  
-   `cd 2D-shapes-Area-Perimeter-App`
-3. Install the required packages:  
-   `pip install -r requirements.txt`
+## Enhanced Features:
+- User-friendly interface 🌐
+- Instant calculations 🕒
+- Detailed explanations of formulas used 📚
+- Ability to save favorites ⭐
+- Dark mode for enhanced visibility during night ✨
 
-## Usage 💻  
-1. Run the application:  
-   `python app.py`
-2. Open a browser and visit `http://127.0.0.1:5000/` to use the app.
+## Contact:
+For any inquiries, please reach out to: **jnithishkumar2@gmail.com** 📧
 
-## Project Structure 🗂️
-```
-2D-shapes-Area-Perimeter-App/
-│
-├── app.py              # Main application file
-├── static/             # Static files (CSS, JS, images)
-│   ├── style.css       # Stylesheet
-│   └── script.js       # JavaScript file
-├── templates/          # HTML Template files
-│   └── index.html      # Home page template
-├── requirements.txt     # Python dependencies
-└── README.md           # Project documentation
-```
+## Usage:
+1. Select a shape from the given options.
+2. Enter the required dimensions.
+3. Click on Calculate to see the results!
 
-## UI Highlights 🌟
-- Intuitive layout for easy interaction.
-- Color-coded sections to differentiate between shapes.
-- Interactive input fields that highlight errors instantly.
+## Installation:
+- Clone this repository.
+- Open in your preferred code editor.
+- Run the application and enjoy!
 
-## Formulas 📏
-- **Circle**: Area = πr², Perimeter = 2πr  
-- **Triangle**: Area = ½ * base * height, Perimeter = a + b + c  
-- **Square**: Area = side², Perimeter = 4 * side  
-- **Rectangle**: Area = length * width, Perimeter = 2(length + width)
-
-## Contributing 🤝
-We welcome contributions!  
-1. Fork the repo.  
-2. Create your feature branch: `git checkout -b feature/AmazingFeature`  
-3. Commit your changes: `git commit -m 'Add some amazing feature'`  
-4. Push to the branch: `git push origin feature/AmazingFeature`  
-5. Open a Pull Request.
-
-## License 📜
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
-## Author ✍️
-- Nithish Kumar  
-
-## Contact 📞  
-- Email: nithish@example.com  
-- GitHub: [Nithish2kumar](https://github.com/Nithish2kumar)  
-
-Feel free to reach out for any queries or suggestions!
+Thank you for choosing our app! Happy calculating! 😊
