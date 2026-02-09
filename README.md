@@ -8,7 +8,14 @@
    ```
 2. Install the required dependencies:
    ```bash
-   pip3 install kivymd==0.104.2
+   # Create a virtual environment in your project directory
+   python3 -m venv venv
+   
+   # Activate it
+   source venv/bin/activate
+
+   # Now install kivymd with the specific version
+   pip install kivymd==0.104.2
    ```
 
 ## Usage Guide
