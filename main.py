@@ -11,20 +11,20 @@ from math import *
 screen_man = """
 ScreenManager:
     MainScreen:
-    D2AreaShapeScreen
-    D2PeriShapeScreen
-    SquareScreenarea
-    SquareScreen
-    CircleScreenarea
-    CircleScreen
-    RhombusScreenarea
-    RhombusScreen
-    EllipseScreenarea
-    EllipseScreen
-    RectangleScreenarea
-    RectangleScreen
-    TriangleScreen
-    TriangleScreenarea
+    D2AreaShapeScreen:
+    D2PeriShapeScreen:
+    SquareScreenarea:
+    SquareScreen:
+    CircleScreenarea:
+    CircleScreen:
+    RhombusScreenarea:
+    RhombusScreen:
+    EllipseScreenarea:
+    EllipseScreen:
+    RectangleScreenarea:
+    RectangleScreen:
+    TriangleScreen:
+    TriangleScreenarea:
 
 <MainScreen>:
     name: "main"
@@ -80,13 +80,7 @@ ScreenManager:
     name: "D2area"
     MDScreen:
         md_bg_color: [125/255, 232/255, 182/255, 1]
-        MDIconButton:
-            icon: "arrow-left-circle"
-            user_font_size: "40sp"
-            pos_hint: {"center_x":0.1,"center_y":0.9}
-            on_press: 
-                root.manager.current = "main"
-                root.manager.transition.direction = 'right'  
+
         ScrollView:
             bar_width: 0
             MDBoxLayout:
@@ -243,17 +237,19 @@ ScreenManager:
                         halign: "center"
                         font_style: "H6"
 
+        MDIconButton:
+            icon: "arrow-left-circle"
+            user_font_size: "40sp"
+            pos_hint: {"center_x":0.1,"center_y":0.9}
+            on_press: 
+                root.manager.current = "main"
+                root.manager.transition.direction = 'right'
+
 <D2PeriShapeScreen>:
     name: "D2peri"
     MDScreen:
         md_bg_color: [125/255, 232/255, 182/255, 1]
-        MDIconButton:
-            icon: "arrow-left-circle"
-            user_font_size: "40sp"
-            on_press: 
-                root.manager.current = "main"
-                root.manager.transition.direction = 'right'
-            pos_hint: {"center_x":0.1,"center_y":0.9}          
+
         ScrollView:
             bar_width: 0
             MDBoxLayout:
@@ -408,6 +404,14 @@ ScreenManager:
                         size_hint: (3,3)
                         halign: "center"
                         font_style: "H6"    
+
+        MDIconButton:
+            icon: "arrow-left-circle"
+            user_font_size: "40sp"
+            on_press: 
+                root.manager.current = "main"
+                root.manager.transition.direction = 'right'
+            pos_hint: {"center_x":0.1,"center_y":0.9}          
 
 <SquareScreenarea>:
     name: "Squarearea"
